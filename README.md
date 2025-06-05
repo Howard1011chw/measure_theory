@@ -1,7 +1,10 @@
 # Measure Theory Notes
 
 ## Overview
-This repository contains comprehensive notes on **Measure Theory**, covering fundamental concepts, theorems, and proofs. These notes are created following a textbook I am reading(I will put the name here later), it is suitable for anyone wants to learn more on measure theory and integration and maybe probability
+This repository contains comprehensive notes on **Measure Theory**, covering fundamental concepts, theorems, and proofs. These notes are created following a textbook I am reading(Measures, Integrals and Martigales by Rene L. Schilling), it is suitable for anyone wants to learn more on measure theory and integration and maybe probability
+## Structure
+Each chapter consists of **notes** , **problems**, and **solution**. User can go directly into the problem directoies if already familiar with the topics, and notes can be used for reference purpose. User new to the topic can go through the notes first to get enough understanding for the topic.
+Note that the problem set are not one-to-one copy from the textbook,some are not included cuz I don't know how to do or I don't want to do, and problems from other sources will be included
 
 ## Contents
 - sigma algebra(currently)
