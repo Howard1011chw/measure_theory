@@ -1,0 +1,31 @@
+\documentclass{article}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+
+\theoremstyle{definition}
+\newtheorem{solution}{Solution}
+
+\begin{document}
+\section*{Sample Solution}
+\begin{solution}
+	\begin{enumerate}[i)]
+\item			let $A_1,\dots,A_n \in \mathscr{A}$, and then by definition $\bigcup_{1 \le i \le n} A_n \in \mathscr{A}$, since $A_i^c \in \mathscr{A} $ for all $i$. Hence,
+	\begin{equation*}
+		\bigcup{A_i^c} = (\bigcap{A_i})^c \in \mathscr{A}
+	\end{equation*}
+	implies 
+	\begin{equation*}
+		\bigcap{A_i} \in \mathscr{A}
+	\end{equation*}
+	where $i \in \{1,\dots,n\}$
+\item Just use the complement axiom twice
+\item Notice that $A\backslash B = A \cap B^c$ and $A \triangle B = (A \backslash B) \cup (B \backslash A)$ then it is obvious
+	
+\end{enumerate}	
+\end{solution}
+	
+\end{document}
