@@ -11,6 +11,9 @@
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
 
+\theoremstyle{definition}
+\newtheorem{lemma}{Lemma}
+
 
 \newtheorem*{remark}{Remark}
 
@@ -78,10 +81,32 @@ For for notation, we write \m{\mathscr{J}_{rat},\mathscr{J}^{o}_{rat}} as (half-
 	\begin{equation*}
 		[a_i,b_i) \times \dots \times [a_n,b_n) = \bigcap_{i \in \mathbb{N}}(a_1 - \frac{1}{i},b_i) \times \dots \times (a_n - \frac{1}{i},b_n)
 	\end{equation*}
-	whilw every open rectangle can be represented as 
+	whilw every  open rectangle can be represented as 
 	\begin{equation*}
 		(c_1,d_1) \times \dots \times (c_n,d_n) = \bigcup_{i \in \mathbb{N}} [c_1 + \frac{1}{i}d_1) \times \dots \times [c_n + \frac{1}{i}d_n)
 	\end{equation*}
 	Hence \m{\sigma(\mathscr{J}) = \sigma(\mathscr{J}^{o})} and similarly   \m{\sigma(\mathscr{J}_{hat}) = \sigma(\mathscr{J}^{o}_{hat})} which completes the proof
+\end{proof}
+
+\begin{lemma}
+	Every singleton set $\{x\}$ is an element of Borel $\sigma$-algebra
+\end{lemma}
+\begin{proof}
+	Consider $\{( b - \frac{1}{n},b+\frac{1}{n}),n \ge 1 \}$. By definition,
+	\begin{equation*}
+		( b - \frac{1}{n},b+\frac{1}{n}) \in \sigma(\mathcal{O})
+	\end{equation*}
+	Using property of $\sigma$-algebra
+	\begin{align*}
+	( b - \frac{1}{n},b+\frac{1}{n})^c \in \sigma(\mathcal{B}) \\
+		\bigcup_{n=1}^{\infty} ( b - \frac{1}{n},b+\frac{1}{n})^c \in \sigma(\mathcal{B}) \\
+		(\bigcap_{n=1}^{\infty} ( b - \frac{1}{n},b+\frac{1}{n}))^c \in \sigma(\mathcal{B}) \\
+		\bigcap_{n=1}^{\infty} ( b - \frac{1}{n},b+\frac{1}{n}) \in \sigma(\mathcal{B})	
+	\end{align*}
+	and 
+	\begin{equation*}
+		\{b\}= \bigcap^{\infty}_{n=1}(b-\frac{1}{n}, b+\frac{1}{n})	
+	\end{equation*}
+	
 \end{proof}
 \end{document}

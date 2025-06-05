@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1749094909.53076 "sigma.tex" "sigma.pdf" "sigma" 1749094910.01127 0
+["pdflatex"] 1749106346.12073 "sigma.tex" "sigma.pdf" "sigma" 1749106346.53793 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1742685315 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1742685315 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -55,8 +55,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1747753900 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1747753866 2008237 f38c7aa2039ac1bbe495706e371e0418 ""
-  "sigma.aux" 1749094909.95344 244 da80c15126aa465f054531cf6260560d "pdflatex"
-  "sigma.tex" 1749094908.81842 4264 3a928d05bf23d9b2b8a229ca054a53aa ""
+  "sigma.aux" 1749106346.48579 244 da80c15126aa465f054531cf6260560d "pdflatex"
+  "sigma.tex" 1749106344.60976 5097 7eb49e2cb02b5224a296b8d51b616d12 ""
   (generated)
   "sigma.aux"
   "sigma.log"

@@ -5,6 +5,7 @@
 \usepackage{amsthm}
 \usepackage{mathrsfs}
 \usepackage{enumerate}
+\usepackage{mathtools}
 
 \theoremstyle{definition}
 \newtheorem{solution}{Solution}
@@ -28,4 +29,11 @@
 \end{enumerate}	
 \end{solution}
 	
+\vspace{1em}
+
+\begin{solution}
+	It would be crazy to write to write down exactly what is contained in it, which is the case for all this kind of objects that has the well-known property of smallest and intersection. But we can at least make the following observation \\
+	Since every singleton is a Borel $\sigma$-algebra, $\sigma(A) \subset \sigma(\mathcal{O})$. Same observation can be made from the fact that $A \subset \mathcal{O}$ hence  $\sigma(A) \subset \sigma(\mathcal{O})$(exercise). \\
+	However  $\sigma(A) \not \supset \sigma(\mathcal{O})$. Since countable unions (or intersections) of countable sets are countable, so any $X \in \sigma(A)$ is either countable or compliment of a countable set. Then consider $(0,1) \not \in \sigma(A)$ but is a Borel set.
+\end{solution}
 \end{document}
